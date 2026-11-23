@@ -167,7 +167,7 @@
       '<div class="fl qr"><img src="assets/qr-linkedin.svg" alt=""><span><b>Scan to connect</b>LinkedIn</span></div></div></section>';
   }
   function offers() {
-    var O = [["pp-recon", "₹15 Cr+", "recovered from reconciliation", "#F3E8FF", "#5A189A"], ["pp-routing", "₹8 Cr / yr", "saved via payment routing", "#E7F8EE", "#13703A"], ["pp-golive", "−53%", "go-live time, Cards", "#FFF1E6", "#9A3D00"], ["h2h", "65 → 300", "sign-ups in two months", "#FFE8EF", "#B0103E"]];
+    var O = [["pp-recon", "₹15 Cr+", "recovered from reconciliation", "#F3E8FF", "#5A189A"], ["pp-routing", "₹8 Cr / yr", "saved via payment routing", "#E7F8EE", "#13703A"], ["pp-golive", "−53%", "go-live time, Cards", "#FFF1E6", "#9A3D00"], ["h2h", "~$110K", "in 2 months at 6x ROAS", "#FFE8EF", "#B0103E"]];
     return '<div class="offers">' + O.map(function (o) { return '<a href="#/pn/' + o[0] + '" style="background:' + o[3] + ";color:" + o[4] + '"><b>' + o[1] + "</b><span>" + o[2] + "</span>" + I.chev + "</a>"; }).join("") + "</div>";
   }
   function catTiles() {
